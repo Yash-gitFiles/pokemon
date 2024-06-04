@@ -1,0 +1,9 @@
+.moveBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  z-index: 1;
+}

@@ -1,0 +1,14 @@
+.searchContainer {
+  display: flex;
+  overflow: hidden;
+  padding: 16px;
+  width: 350px;
+  flex-direction: column;
+}
+
+.backBtn {
+  width: fit-content;
+  padding: 6px;
+  margin: auto;
+  border: none;
+}

@@ -1,0 +1,16 @@
+.rowContainer {
+  background-color: #616161;
+}
+
+.rowContainer > p {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.container {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

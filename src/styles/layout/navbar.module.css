@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap");
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #424242;
+  align-items: center;
+  color: white;
+  padding: 8px;
+}
+
+.searchContainer {
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: "Rubik Scribble", system-ui;
+}
+
+.input {
+  padding: 8px;
+}
+
+.searchBtn {
+  padding: 9px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.input:focus {
+  outline: 2px solid #ee6b2f;
+}

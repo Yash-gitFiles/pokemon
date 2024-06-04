@@ -1,0 +1,27 @@
+.nameNumber {
+  display: flex;
+  gap: 16px;
+}
+
+.cardContainer {
+  /* border: 2px solid white; */
+  border-radius: 16px;
+  padding: 32px;
+  cursor: pointer;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 2px solid white;
+  height: 200px;
+  width: 200px;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
